@@ -1,5 +1,5 @@
 id: welcome
-namespace: prod
+namespace: wbr-automation
 description: Save and Execute the flow
 
 tasks:

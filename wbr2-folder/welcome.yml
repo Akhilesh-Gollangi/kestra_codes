@@ -1,0 +1,10 @@
+id: welcome
+namespace: prod
+description: Save and Execute the flow
+
+tasks:
+  - id: push
+    type: io.kestra.plugin.scripts.python.Script
+    script: print("Welcome to my world")
+    
+

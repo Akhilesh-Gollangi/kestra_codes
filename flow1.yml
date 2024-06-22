@@ -1,0 +1,15 @@
+id: flow1
+namespace: automation
+description: Save and Execute the flow
+
+tasks:
+  - id: push
+    type: io.kestra.plugin.scripts.python.Script
+    script: print("Welcome to my world flow1")
+
+triggers:
+  - id: daily
+    type: io.kestra.plugin.core.trigger.Schedule
+    cron: "* * * * *"
+    
+

@@ -5,4 +5,4 @@ description: Save and Execute the flow
 tasks:
   - id: msg
     type: io.kestra.plugin.scripts.python.Script
-    script: print("Hello World")
+    script: print("Hello World","Welcome to India")

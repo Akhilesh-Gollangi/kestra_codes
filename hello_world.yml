@@ -1,0 +1,8 @@
+id: hello_world
+namespace: wbr1
+description: Save and Execute the flow
+
+tasks:
+  - id: msg
+    type: io.kestra.plugin.scripts.python.Script
+    script: print("Hello World")
